@@ -1,16 +1,30 @@
 PODS:
   - Alamofire (5.7.1)
+  - CocoaLumberjack/Core (3.8.0)
+  - CocoaLumberjack/Swift (3.8.0):
+    - CocoaLumberjack/Core
+  - SwiftyJSON (5.0.1)
+  - WebViewJavascriptBridge (6.0.3)
 
 DEPENDENCIES:
   - Alamofire (~> 5.0)
+  - CocoaLumberjack/Swift
+  - SwiftyJSON
+  - WebViewJavascriptBridge
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - CocoaLumberjack
+    - SwiftyJSON
+    - WebViewJavascriptBridge
 
 SPEC CHECKSUMS:
   Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
+  CocoaLumberjack: 78abfb691154e2a9df8ded4350d504ee19d90732
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
 
-PODFILE CHECKSUM: 11689cabed26abbd2ec93f0389848710f492978c
+PODFILE CHECKSUM: 86d3418d59bbf6faf05e81bab5f5d332eacb1710
 
 COCOAPODS: 1.12.1

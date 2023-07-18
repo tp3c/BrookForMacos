@@ -22,5 +22,8 @@ target 'Brook' do
   # Pods for Brook
 
   pod 'Alamofire', '~> 5.0'
-  
+  pod 'SwiftyJSON'
+  pod 'CocoaLumberjack/Swift'
+  pod 'WebViewJavascriptBridge'
+    
 end
